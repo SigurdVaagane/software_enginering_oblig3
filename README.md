@@ -7,5 +7,7 @@ eg har prøvd å pushe når testene ikkje feiler for å sjå att dei feiler i ac
 begge desse var suksessfulle.
 
 på toppen av README.md har eg lagt til linja:
-"![]\(https://github.com/SigurdVaagane/software_enginering_oblig3/actions/workflows/tests.yml/badge.svg)"
+
+![]\(https://github.com/SigurdVaagane/software_enginering_oblig3/actions/workflows/tests.yml/badge.svg)
+
 for å vise workflow status badge

@@ -2,12 +2,14 @@ import sigurd.oblig.Main;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.fail;
 
 
 public class Test_if_leap_year {
 
     @Test
     public void test_divisible_by_four_but_not_hundred_is_true() {
+        fail();
         assertTrue(Main.isLeapYear(0));
         assertTrue(Main.isLeapYear(4));
         assertTrue(Main.isLeapYear(8));
